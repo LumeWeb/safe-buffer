@@ -54,7 +54,7 @@ SafeBuffer.allocUnsafe = function (size) {
   if (typeof size !== 'number') {
     throw new TypeError('Argument must be a number')
   }
-  return Buffer(size)
+  return new Uint32Array(size)
 }
 
 SafeBuffer.allocUnsafeSlow = function (size) {
