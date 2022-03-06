@@ -1,5 +1,5 @@
 {
-  "name": "safe-buffer",
+  "name": "@lumeweb/safe-buffer",
   "description": "Safer Node.js Buffer API",
   "version": "5.2.1",
   "author": {
